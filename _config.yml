@@ -9,4 +9,4 @@ twitter_username: gisbusters
 github_username:  gisbusters
 
 # Build settings
-markdown: redcarpet
+markdown: Kramdown
