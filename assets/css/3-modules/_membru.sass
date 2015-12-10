@@ -1,15 +1,57 @@
 .containter-membru
   max-width: 860px
-  background: pink
+  //background: pink
   padding: 5px
   margin: 25px auto
+  clear: both
+
+.member-text
+  margin: 0
+  padding: 0
+
+.member-description
+  margin: 15px 0
+  font-size: 1.2em
 
 .imagine-membru
-  width: 250px
-  height: 250px
-  background-color: #ccc
+  width: calc(250px/2)
+  height: calc(500px/2)
+  background-image: url("/assets/img/andi.jpg")
+  background-size: cover
   float: left
   margin: 5px 20px 20px 0px
 
-.membru-hook
+.skill-list
+  li
+    display: inline-block
+    padding: 5px 8px
+    margin: 5px 2px
+    background: $buster-color
+    color: #fff
+.member-name
+  text-align: left
+  font-size: 2.2em
+  color: #3c3c3c
+  margin: 0
+  padding: 0
+
+.member-right
+  text-align: right
+
+.member-right-image
+  float: right
+  margin-left: 20px
+
+#member-contact
   clear: both
+  margin: 100px auto 0 auto
+  text-align: center
+
+#member-contact-button
+  display: inline-block
+  font-size: 1.5em
+  text-transform: uppercase
+  padding: 6px  8px
+  background-color: $buster-color
+  color: #fff
+  border-radius: 5px

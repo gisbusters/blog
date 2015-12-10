@@ -10,9 +10,31 @@
 
 
   {% include header.html %}
+  {% include nav.html %}
 
 
-<h3>Pagina de contact</h3>
+  <div class="content">
+    <h3 class="title" >Glad to hear from you!</h3>
+
+    <p>
+      We are available:
+    </p>
+
+    <ul class="contact-list">
+      <li> Send us an e-mail : <span>gisbusters@gmail.com</span> </li>
+      <li> Hire us : <span> <a href="#">freelancer.com/gisbusters</a></span> </li>
+    </ul>
+
+    <p>
+      Or simply leave a message:
+    </p>
+
+  {% include comments.html %}
+  </div>
+
+
+
+  {% include footer.html %}
 
 
 <script src="/assets/js/jquery-2.1.1.min.js"></script>
