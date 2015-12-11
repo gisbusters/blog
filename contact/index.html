@@ -8,33 +8,40 @@
 
 <body>
 
-
-  {% include header.html %}
-  {% include nav.html %}
+<div id="container">
 
 
-  <div class="content">
-    <h3 class="title" >Glad to hear from you!</h3>
-
-    <p>
-      We are available:
-    </p>
-
-    <ul class="contact-list">
-      <li> Send us an e-mail : <span>gisbusters@gmail.com</span> </li>
-      <li> Hire us : <span> <a href="#">freelancer.com/gisbusters</a></span> </li>
-    </ul>
-
-    <p>
-      Or simply leave a message:
-    </p>
-
-  {% include comments.html %}
+  <div id="header">
+    {% include header.html %}
+    {% include nav.html %}
   </div>
 
+  <div id="body">
+    <div class="content">
+      <h3 class="title" >Glad to hear from you!</h3>
 
+      <p>
+        We are available:
+      </p>
 
-  {% include footer.html %}
+      <ul class="contact-list">
+        <li> Send us an e-mail : <span>gisbusters@gmail.com</span> </li>
+        <li> Hire us : <span> <a href="#">freelancer.com/gisbusters</a></span> </li>
+      </ul>
+
+      <p>
+        Or simply leave a message:
+      </p>
+
+    {% include comments.html %}
+    </div>
+  </div>
+
+  <div id="footer">
+    {% include footer.html %}
+  </div>
+</div>
+
 
 
 <script src="/assets/js/jquery-2.1.1.min.js"></script>

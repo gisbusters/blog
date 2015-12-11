@@ -6,35 +6,39 @@
 {% include head.html %}
 <body>
 
-{% include header.html %}
-{% include nav.html %}
+<div id="header">
+  {% include header.html %}
+  {% include nav.html %}
+</div>
 
+<div id="body">
+  <div class="content">
+    <h3 class="title" > Gisbusters projects </h3>
 
-
-<div class="content">
-  <h3 class="title" > Gisbusters projects </h3>
-
-  <div class="project-module">
-   {% include project/module-test.html %}
+    <div class="project-module">
+     {% include project/module-test.html %}
+    </div>
+  <hr>
+    <div class="project-module">
+     {% include project/module-test.html %}
+    </div>
+  <hr>
+    <div class="project-module">
+     {% include project/module-test.html %}
+    </div>
+  <hr>
+    <div class="project-module">
+     {% include project/module-test.html %}
+    </div>
+  <hr>
+    <div class="project-module">
+     {% include project/module-test.html %}
+    </div>
   </div>
-<hr>
-  <div class="project-module">
-   {% include project/module-test.html %}
-  </div>
-<hr>
-  <div class="project-module">
-   {% include project/module-test.html %}
-  </div>
-<hr>
-  <div class="project-module">
-   {% include project/module-test.html %}
-  </div>
-<hr>
-  <div class="project-module">
-   {% include project/module-test.html %}
-  </div>
+</div>
 
-
+<div id="footer">
+  {% include footer.html %}
 </div>
 
 

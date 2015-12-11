@@ -7,30 +7,41 @@
 <body>
 
 
-{% include header.html %}
+<div id="containter">
+  <div id="header">
+    {% include header.html %}
 
-{% include nav.html %}
+    {% include nav.html %}
+  </div>
 
-<div class="content">
+  <div id="body">
+    <div class="content">
 
-  <h3 class = "title index-title">Wellcome to the Busters Headquarters!</h3>
+      <h3 class = "title index-title">Wellcome to the Busters Headquarters!</h3>
 
-  <h3 class = "title index-subtitle">
-    We transform ideea into maps, for fun and profit.
-  </h3>
+      <h3 class = "title index-subtitle">
+        We transform ideea into maps, for fun and profit.
+      </h3>
 
-  <p class = "index-text g-center-text">
-    so go ahead, check our projects, meet the Gisbusters members or just stop and say hello!
-    <br/>
-    We would love that!
-  </p>
-  <p class="index-text" >
-    Check our lates:
-  </p>
+      <p class = "index-text g-center-text">
+        so go ahead, check our projects, meet the Gisbusters members or just stop and say hello!
+        <br/>
+        We would love that!
+      </p>
+      <p class="index-text" >
+        Check our lates:
+      </p>
+      {% include featured.html %}
+    </div>
+
+
+  </div>
+
+  <div id="footer">
+    {% include footer.html %}
+  </div>
+
 </div>
-{% include featured.html %}
-
-{% include footer.html %}
 
 
 
